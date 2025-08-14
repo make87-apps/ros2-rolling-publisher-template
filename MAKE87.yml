@@ -1,0 +1,7 @@
+build_kit:
+  name: ros2
+  version: latest
+outbound_topics:
+  - name: OUTGOING_MESSAGE
+    message_type: ros2_interfaces_rolling.std_msgs.msg.String
+needs_host_network: true
